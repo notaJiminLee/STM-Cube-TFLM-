@@ -1,0 +1,8 @@
+recording_simple_memory_allocator.cc:27:1:tflite::RecordingSimpleMemoryAllocator::~RecordingSimpleMemoryAllocator()	8	static
+recording_simple_memory_allocator.cc:27:1:virtual tflite::RecordingSimpleMemoryAllocator::~RecordingSimpleMemoryAllocator()	8	static
+recording_simple_memory_allocator.cc:20:1:tflite::RecordingSimpleMemoryAllocator::RecordingSimpleMemoryAllocator(tflite::ErrorReporter*, uint8_t*, size_t)	8	static
+recording_simple_memory_allocator.cc:29:8:size_t tflite::RecordingSimpleMemoryAllocator::GetRequestedBytes() const	0	static
+recording_simple_memory_allocator.cc:33:8:size_t tflite::RecordingSimpleMemoryAllocator::GetUsedBytes() const	0	static
+recording_simple_memory_allocator.cc:37:8:size_t tflite::RecordingSimpleMemoryAllocator::GetAllocatedCount() const	0	static
+recording_simple_memory_allocator.cc:41:10:virtual uint8_t* tflite::RecordingSimpleMemoryAllocator::AllocateFromHead(size_t, size_t)	24	static
+recording_simple_memory_allocator.cc:53:10:virtual uint8_t* tflite::RecordingSimpleMemoryAllocator::AllocateFromTail(size_t, size_t)	24	static

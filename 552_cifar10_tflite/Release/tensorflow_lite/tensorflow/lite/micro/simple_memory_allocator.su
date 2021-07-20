@@ -1,0 +1,14 @@
+simple_memory_allocator.cc:55:1:tflite::SimpleMemoryAllocator::~SimpleMemoryAllocator()	0	static
+simple_memory_allocator.cc:55:1:virtual tflite::SimpleMemoryAllocator::~SimpleMemoryAllocator()	8	static
+simple_memory_allocator.cc:57:10:virtual uint8_t* tflite::SimpleMemoryAllocator::AllocateFromHead(size_t, size_t)	24	static
+simple_memory_allocator.cc:72:10:virtual uint8_t* tflite::SimpleMemoryAllocator::AllocateFromTail(size_t, size_t)	24	static
+simple_memory_allocator.cc:26:1:tflite::SimpleMemoryAllocator::SimpleMemoryAllocator(tflite::ErrorReporter*, uint8_t*, uint8_t*)	12	static
+simple_memory_allocator.cc:35:1:tflite::SimpleMemoryAllocator::SimpleMemoryAllocator(tflite::ErrorReporter*, uint8_t*, size_t)	12	static
+simple_memory_allocator.cc:41:24:static tflite::SimpleMemoryAllocator* tflite::SimpleMemoryAllocator::Create(tflite::ErrorReporter*, uint8_t*, size_t)	40	static
+simple_memory_allocator.cc:87:10:uint8_t* tflite::SimpleMemoryAllocator::GetHead() const	0	static
+simple_memory_allocator.cc:89:10:uint8_t* tflite::SimpleMemoryAllocator::GetTail() const	0	static
+simple_memory_allocator.cc:91:8:size_t tflite::SimpleMemoryAllocator::GetHeadUsedBytes() const	0	static
+simple_memory_allocator.cc:95:8:size_t tflite::SimpleMemoryAllocator::GetTailUsedBytes() const	0	static
+simple_memory_allocator.cc:99:8:size_t tflite::SimpleMemoryAllocator::GetAvailableMemory() const	0	static
+simple_memory_allocator.cc:103:8:size_t tflite::SimpleMemoryAllocator::GetUsedBytes() const	0	static
+simple_memory_allocator.cc:107:8:size_t tflite::SimpleMemoryAllocator::GetBufferSize() const	0	static

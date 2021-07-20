@@ -1,0 +1,20 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+op_resolver.h:35:11:tflite::OpResolver::~OpResolver()	16	static
+op_resolver.h:35:11:virtual tflite::OpResolver::~OpResolver()	16	static
+micro_op_resolver.h:76:29:virtual const TfLiteRegistration* tflite::MicroOpResolver::FindOp(tflite::BuiltinOperator, int) const	24	static
+micro_op_resolver.h:83:29:virtual const TfLiteRegistration* tflite::MicroOpResolver::FindOp(const char*, int) const	24	static
+micro_op_resolver.h:91:3:tflite::MicroOpResolver::~MicroOpResolver()	16	static
+micro_op_resolver.h:91:3:virtual tflite::MicroOpResolver::~MicroOpResolver()	16	static
+micro_mutable_op_resolver.h:30:7:tflite::MicroMutableOpResolver<128>::~MicroMutableOpResolver()	16	static
+micro_mutable_op_resolver.h:30:7:virtual tflite::MicroMutableOpResolver<128>::~MicroMutableOpResolver()	16	static
+all_ops_resolver.cc:19:1:tflite::AllOpsResolver::AllOpsResolver()	24	static
+op_resolver.h:27:7:constexpr tflite::OpResolver::OpResolver()	16	static
+micro_op_resolver.h:35:7:constexpr tflite::MicroOpResolver::MicroOpResolver()	16	static
+micro_mutable_op_resolver.h:32:12:tflite::MicroMutableOpResolver<tOpCount>::MicroMutableOpResolver(tflite::ErrorReporter*) [with unsigned int tOpCount = 128]	16	static
+micro_mutable_op_resolver.h:64:16:TfLiteStatus tflite::MicroMutableOpResolver<tOpCount>::AddBuiltin(tflite::BuiltinOperator, TfLiteRegistration*) [with unsigned int tOpCount = 128]	40	static
+micro_mutable_op_resolver.h:35:29:const TfLiteRegistration* tflite::MicroMutableOpResolver<tOpCount>::FindOp(tflite::BuiltinOperator) const [with unsigned int tOpCount = 128]	24	static
+all_ops_resolver.h:25:7:tflite::AllOpsResolver::~AllOpsResolver()	16	static
+all_ops_resolver.h:25:7:virtual tflite::AllOpsResolver::~AllOpsResolver()	16	static
+micro_mutable_op_resolver.h:94:16:TfLiteStatus tflite::MicroMutableOpResolver<tOpCount>::AddCustom(const char*, TfLiteRegistration*) [with unsigned int tOpCount = 128]	40	static
+micro_mutable_op_resolver.h:47:29:const TfLiteRegistration* tflite::MicroMutableOpResolver<tOpCount>::FindOp(const char*) const [with unsigned int tOpCount = 128]	24	static
+micro_mutable_op_resolver.h:58:41:TfLiteStatus (* tflite::MicroMutableOpResolver<tOpCount>::GetOpDataParser(tflite::BuiltinOperator) const)(const tflite::Operator*, tflite::BuiltinOperator, tflite::ErrorReporter*, tflite::BuiltinDataAllocator*, void**) [with unsigned int tOpCount = 128]	16	static

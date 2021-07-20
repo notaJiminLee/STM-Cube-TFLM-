@@ -1,0 +1,16 @@
+micro_op_resolver.h:76:29:virtual const TfLiteRegistration* tflite::MicroOpResolver::FindOp(tflite::BuiltinOperator, int) const	0	static
+micro_op_resolver.h:83:29:virtual const TfLiteRegistration* tflite::MicroOpResolver::FindOp(const char*, int) const	0	static
+main.cpp:132:37:void __tcf_0()	0	static
+micro_mutable_op_resolver.h:35:29:const TfLiteRegistration* tflite::MicroMutableOpResolver<tOpCount>::FindOp(tflite::BuiltinOperator) const [with unsigned int tOpCount = 4]	12	static
+micro_mutable_op_resolver.h:30:7:tflite::MicroMutableOpResolver<4>::~MicroMutableOpResolver()	0	static
+micro_mutable_op_resolver.h:58:41:TfLiteStatus (* tflite::MicroMutableOpResolver<tOpCount>::GetOpDataParser(tflite::BuiltinOperator) const)(const tflite::Operator*, tflite::BuiltinOperator, tflite::ErrorReporter*, tflite::BuiltinDataAllocator*, void**) [with unsigned int tOpCount = 4]	0	static
+main.cpp:160:77:void __tcf_2()	0	static
+micro_mutable_op_resolver.h:47:29:const TfLiteRegistration* tflite::MicroMutableOpResolver<tOpCount>::FindOp(const char*) const [with unsigned int tOpCount = 4]	24	static
+micro_mutable_op_resolver.h:30:7:virtual tflite::MicroMutableOpResolver<4>::~MicroMutableOpResolver()	8	static
+micro_mutable_op_resolver.h:94:16:TfLiteStatus tflite::MicroMutableOpResolver<tOpCount>::AddCustom(const char*, TfLiteRegistration*) [with unsigned int tOpCount = 4]	24	static
+micro_mutable_op_resolver.h:64:16:TfLiteStatus tflite::MicroMutableOpResolver<tOpCount>::AddBuiltin(tflite::BuiltinOperator, TfLiteRegistration*) [with unsigned int tOpCount = 4]	24	static
+main.cpp:143:44:void __tcf_1()	0	static
+main.cpp:227:6:void SystemClock_Config()	104	static
+main.cpp:97:5:int main()	112	static
+main.cpp:376:6:void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef*)	64	static
+main.cpp:389:6:void Error_Handler()	0	static
