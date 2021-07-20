@@ -1,0 +1,9 @@
+facedetection.c:694:9:facedetection_configure_activations	24	static
+facedetection.c:741:9:facedetection_configure_weights	24	static
+facedetection.c:786:9:ai_facedetection_get_info	136	static
+facedetection.c:833:10:ai_facedetection_get_error	16	static
+facedetection.c:839:10:ai_facedetection_create	24	static
+facedetection.c:849:11:ai_facedetection_destroy	16	static
+facedetection.c:855:9:ai_facedetection_init	24	static
+facedetection.c:872:8:ai_facedetection_run	24	static
+facedetection.c:879:8:ai_facedetection_forward	16	static
